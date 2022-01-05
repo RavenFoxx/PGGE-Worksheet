@@ -15,11 +15,11 @@ C:/Users/Helvia/Documents/GitHub/PGGE-Worksheet/PGGE week 1 camera movement
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64767
+63044
 Successfully changed project path to: C:/Users/Helvia/Documents/GitHub/PGGE-Worksheet/PGGE week 1 camera movement
 C:/Users/Helvia/Documents/GitHub/PGGE-Worksheet/PGGE week 1 camera movement
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.05 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,71 +35,111 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003013 seconds.
+Registered in 0.003144 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 43.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.851 seconds
+- Completed reload, in  1.965 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001047 seconds.
+Registered in 0.001729 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.582 seconds
+- Completed reload, in  1.192 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.9 MB.
 System memory in use after: 58.0 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1564.
-Total: 2.870400 ms (FindLiveObjects: 0.375900 ms CreateObjectMapping: 0.074300 ms MarkObjects: 2.301300 ms  DeleteObjects: 0.117500 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1560.
+Total: 2.326900 ms (FindLiveObjects: 0.213500 ms CreateObjectMapping: 0.069800 ms MarkObjects: 1.909800 ms  DeleteObjects: 0.133100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(fa67df3561032f646805ac4c4527e5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(fa67df3561032f646805ac4c4527e5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a34436005af58e153d44e48be2601d') in 0.057598 seconds
-  Import took 0.061085 seconds .
+  path: Assets/Scripts/ThirdPersonCamera.cs
+  artifactKey: Guid(0afbac7ec26d21e489de5740b4280576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ThirdPersonCamera.cs using Guid(0afbac7ec26d21e489de5740b4280576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90f7d2ee6aec4ba7c22d30aeaebd650') in 0.029419 seconds
+  Import took 0.032311 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.060843 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(fa67df3561032f646805ac4c4527e5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(fa67df3561032f646805ac4c4527e5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d15182f4e6674b64dc585a7530929f2') in 0.082672 seconds
-  Import took 0.094660 seconds .
+  Time since last request: 729.885200 seconds.
+  path: Assets/Scripts/ThirdPersonCamera.cs
+  artifactKey: Guid(0afbac7ec26d21e489de5740b4280576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ThirdPersonCamera.cs using Guid(0afbac7ec26d21e489de5740b4280576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47467fbf03b712ef48a5c94e3d116dc') in 0.019418 seconds
+  Import took 0.085606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041992 seconds.
+  path: Assets/Scripts/ThirdPersonCamera.cs
+  artifactKey: Guid(0afbac7ec26d21e489de5740b4280576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ThirdPersonCamera.cs using Guid(0afbac7ec26d21e489de5740b4280576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47467fbf03b712ef48a5c94e3d116dc') in 0.007673 seconds
+  Import took 0.011829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.620667 seconds.
+  path: Assets/Scripts/TPCBase.cs
+  artifactKey: Guid(0afbac7ec26d21e489de5740b4280576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TPCBase.cs using Guid(0afbac7ec26d21e489de5740b4280576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e8e239a982f99f4bc38c72d1a99f7d') in 0.018242 seconds
+  Import took 0.022551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1189.602359 seconds.
+  path: Assets/Scripts/ThirdPersonCamera.cs
+  artifactKey: Guid(0afbac7ec26d21e489de5740b4280576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ThirdPersonCamera.cs using Guid(0afbac7ec26d21e489de5740b4280576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c215a132238601ccda32a49aa30fe4') in 0.030969 seconds
+  Import took 0.120748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1728.504696 seconds.
+  path: Assets/Scripts/ThirdPersonCamera.cs
+  artifactKey: Guid(0afbac7ec26d21e489de5740b4280576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ThirdPersonCamera.cs using Guid(0afbac7ec26d21e489de5740b4280576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cede4cc58410dc808cdadce17d5e56f') in 0.053061 seconds
+  Import took 0.186118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.574186 seconds.
+  path: Assets/Scripts/TPCBase.cs
+  artifactKey: Guid(18e2a2ca88adb6c4ea373e085f9bce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TPCBase.cs using Guid(18e2a2ca88adb6c4ea373e085f9bce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ab88d4487e5fb9f5938faedfe4ec36') in 0.005455 seconds
+  Import took 0.008988 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001183 seconds.
+Registered in 0.001491 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  1.487 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.9 MB.
-System memory in use after: 58.0 MB.
+System memory in use after: 57.9 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1567.
-Total: 2.484200 ms (FindLiveObjects: 0.200900 ms CreateObjectMapping: 0.039700 ms MarkObjects: 2.155800 ms  DeleteObjects: 0.086400 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1563.
+Total: 6.376000 ms (FindLiveObjects: 0.502400 ms CreateObjectMapping: 0.108000 ms MarkObjects: 5.301900 ms  DeleteObjects: 0.461900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
