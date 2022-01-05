@@ -25,3 +25,4 @@ public class PlayerMovement : MonoBehaviour
         playerAnim.SetFloat("PosZ", vertiInp * speed / 2.0f * this.mSpeed);
     }
 }
+//test
